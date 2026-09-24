@@ -9,6 +9,7 @@ def create_account():
     else:
         name = input("Enter Account Holder Name: ")
         balance = float(input("Enter opening Balance: "))
-        accounts[number] = {"name": name, "balance": balance, "transactions": ["Account created"]}
+        accounts[number] = {"name": name, "balance": balance, "transactions": []}
         print("Account created successfully.")
+    
 
