@@ -3,7 +3,6 @@ accounts = {}
 
 def create_account():
     accnum = input("Enter Account Number: ")
-
     if accnum in accounts:
         print("Account already exists.")
     else:
