@@ -12,5 +12,14 @@ def create_account():
         balance = float(input("Enter opening Balance: "))
         accounts[accnum] = {"name": name, "balance": balance, "transactions": []}
         print("Account created successfully.")
-    '''
 
+def deposit_money():
+    accnum = input("Enter Account Number: ")
+    if accnum in accounts:
+        amount = float(input("Enter Deposit Amount: "))
+        accounts[accnum]["balance"] = accounts[accnum]["balance"] + amount
+        accounts[accnum]["transactions"].append("Deposited Rs. " + str(amount))
+        print("Money Deposited Successfully.")
+    else:
+        print("Account Not Found.")
+'''
