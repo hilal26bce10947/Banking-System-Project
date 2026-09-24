@@ -1,6 +1,6 @@
-'''
 # Python-Project
 
+'''
 accounts = {}
 
 def create_account():
