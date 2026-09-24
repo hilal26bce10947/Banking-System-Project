@@ -1,4 +1,5 @@
 # Python-Project
+'''
 accounts = {}
 
 def create_account():
@@ -8,7 +9,7 @@ def create_account():
     else:
         name = input("Enter Account Holder Name: ")
         balance = float(input("Enter opening Balance: "))
-        accounts[number] = {"name": name, "balance": balance, "transactions": []}
+        accounts[accnum] = {"name": name, "balance": balance, "transactions": []}
         print("Account created successfully.")
-    
+    '''
 
