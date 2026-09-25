@@ -12,7 +12,6 @@ def create_account():
     name=read_text("Enter Account Holder Name: ")
     balance=read_amount("Enter Opening Balance: Rs. ")
     accounts[accnum]={"name": name, "balance": balance, "transactions": ["Opening Balance: Rs. " + str(balance)]}
-
     print("Account Created Successfully.")
 
 
