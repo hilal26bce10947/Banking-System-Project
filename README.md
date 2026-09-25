@@ -44,8 +44,8 @@ python main.py
 
 ## Instructions for testing
 Test account creation, duplicate accounts, deposits, withdrawals, insufficient balance, invalid input, account details, and account deletion by entering different types of datas then check outputs are as expected or not. If outputs are as expected then program can run without fail and passed the test. If give error or wierd output then there is a mistake in source code.
-These are the following instructions which should be kept in mind to pass the test:
 
+These are the following instructions which should be kept in mind to pass the test:
 1) If user entered value iss found repeated then it should displays "Account Already exists".
 2) If the user enters letters instead of a numeric amount, the program displays an error message instead of stopping.
 3) It should checks whether an account exists before performing an operation.
