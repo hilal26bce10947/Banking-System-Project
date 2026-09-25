@@ -22,7 +22,7 @@ Here, Users can do the following:
 Python 3, Python dictionary, list, functions, loops, conditional statements, and exception handling
 
 
-## Files Contained in Project
+## Files Contained in this Project
 
 1) `main.py` - This is the main point which shows the menu and control the programs.
 2) `account.py` - This Creates and deletes accounts of users.
@@ -43,5 +43,14 @@ python main.py
 
 
 ## Instructions for testing
-Test account creation, duplicate accounts, deposits, withdrawals, insufficient balance, invalid input, account details, and account deletion.
-Also input repeated and invalid values and check output to test it works correctly or not.
+Test account creation, duplicate accounts, deposits, withdrawals, insufficient balance, invalid input, account details, and account deletion by entering different types of datas then check outputs are as expected or not. If outputs are as expected then program can run without fail and passed the test. If give error or wierd output then there is a mistake in source code.
+These are the following instructions which should be kept in mind to pass the test:
+
+1) If user entered value iss found repeated then it should displays "Account Already exists".
+2) If the user enters letters instead of a numeric amount, the program displays an error message instead of stopping.
+3) It should checks whether an account exists before performing an operation.
+4) It should accepts only positive amounts for deposits, withdrawals, and opening balances.
+5) The withdrawal function should prevents the user from withdrawing an amount greater than the available balance.
+
+
+
