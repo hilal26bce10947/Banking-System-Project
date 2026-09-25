@@ -10,7 +10,6 @@ def deposit_money():
         return
 
     amount=read_amount("Enter Deposit Amount: Rs. ")
-    
     accounts[accnum]["balance"]=accounts[accnum]["balance"]+amount
     accounts[accnum]["transactions"].append("Deposited Rs. " + str(amount))
     print("Money Deposited Successfully.")
@@ -31,7 +30,6 @@ def withdraw_money():
 
     accounts[accnum]["balance"]=accounts[accnum]["balance"]-amount
     accounts[accnum]["transactions"].append("Withdrawn Rs. " + str(amount))
-
     print("Money Withdrawn Successfully.")
 
 
